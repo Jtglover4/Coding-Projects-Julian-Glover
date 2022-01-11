@@ -7,7 +7,7 @@ using namespace std;
 
 
 //******************************************************************
-//START OF THE CONSTRUCTORS SECTION
+//START OF THE CONSTRUCTORS SECTION.
 //******************************************************************
 // bool BigInt::absCompare(BigInt left, BigInt right)
 // {
