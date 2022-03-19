@@ -1,0 +1,4 @@
+Combiners.ANDCombiner 2 0.605982
+Combiners.ORCombiner 2 0.719103
+Combiners.DiffCombiner 2 0.773632
+---

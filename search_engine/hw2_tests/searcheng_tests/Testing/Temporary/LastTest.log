@@ -1,0 +1,1004 @@
+Start testing: Feb 11 06:30 UTC
+----------------------------------------------------------
+1/9 Testing: SearchEng.ParserRegistration
+1/9 Test: SearchEng.ParserRegistration
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.ParserRegistration"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.ParserRegistration" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13803== Memcheck, a memory error detector
+==13803== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13803== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13803== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.ParserRegistration
+==13803== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.ParserRegistration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.ParserRegistration
+[       OK ] SearchEng.ParserRegistration (183 ms)
+[----------] 1 test from SearchEng (190 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (213 ms total)
+[  PASSED  ] 1 test.
+==13803== 
+==13803== HEAP SUMMARY:
+==13803==     in use at exit: 449 bytes in 6 blocks
+==13803==   total heap usage: 296 allocs, 290 frees, 157,168 bytes allocated
+==13803== 
+==13803== 8 bytes in 1 blocks are definitely lost in loss record 1 of 6
+==13803==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13803==    by 0x118D88: SearchEng_ParserRegistration_Test::TestBody() (searcheng_tests.cpp:90)
+==13803==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13803==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15A0A5: Run (gtest.cc:2508)
+==13803==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13803==    by 0x15A204: Run (gtest.cc:2684)
+==13803==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13803==    by 0x15A2EC: Run (gtest.cc:2816)
+==13803==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13803==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13803==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13803==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13803==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13803== 
+==13803== 8 bytes in 1 blocks are definitely lost in loss record 2 of 6
+==13803==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13803==    by 0x119264: SearchEng_ParserRegistration_Test::TestBody() (searcheng_tests.cpp:105)
+==13803==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13803==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15A0A5: Run (gtest.cc:2508)
+==13803==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13803==    by 0x15A204: Run (gtest.cc:2684)
+==13803==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13803==    by 0x15A2EC: Run (gtest.cc:2816)
+==13803==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13803==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13803==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13803==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13803==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13803== 
+==13803== 193 (176 direct, 17 indirect) bytes in 1 blocks are definitely lost in loss record 5 of 6
+==13803==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13803==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13803==    by 0x11932C: SearchEng_ParserRegistration_Test::TestBody() (searcheng_tests.cpp:108)
+==13803==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13803==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15A0A5: Run (gtest.cc:2508)
+==13803==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13803==    by 0x15A204: Run (gtest.cc:2684)
+==13803==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13803==    by 0x15A2EC: Run (gtest.cc:2816)
+==13803==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13803==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13803==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13803==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13803==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13803== 
+==13803== 240 (176 direct, 64 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 6
+==13803==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13803==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13803==    by 0x11900A: SearchEng_ParserRegistration_Test::TestBody() (searcheng_tests.cpp:94)
+==13803==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13803==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15A0A5: Run (gtest.cc:2508)
+==13803==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13803==    by 0x15A204: Run (gtest.cc:2684)
+==13803==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13803==    by 0x15A2EC: Run (gtest.cc:2816)
+==13803==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13803==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13803==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13803==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13803==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13803==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13803== 
+==13803== LEAK SUMMARY:
+==13803==    definitely lost: 368 bytes in 4 blocks
+==13803==    indirectly lost: 81 bytes in 2 blocks
+==13803==      possibly lost: 0 bytes in 0 blocks
+==13803==    still reachable: 0 bytes in 0 blocks
+==13803==         suppressed: 0 bytes in 0 blocks
+==13803== 
+==13803== For lists of detected and suppressed errors, rerun with: -s
+==13803== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.46 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.ParserRegistration" end time: Feb 11 06:30 UTC
+"SearchEng.ParserRegistration" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/9 Testing: SearchEng.ReadPageMultipleTimes
+2/9 Test: SearchEng.ReadPageMultipleTimes
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.ReadPageMultipleTimes"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.ReadPageMultipleTimes" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13804== Memcheck, a memory error detector
+==13804== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13804== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13804== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.ReadPageMultipleTimes
+==13804== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.ReadPageMultipleTimes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.ReadPageMultipleTimes
+[       OK ] SearchEng.ReadPageMultipleTimes (184 ms)
+[----------] 1 test from SearchEng (191 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (216 ms total)
+[  PASSED  ] 1 test.
+==13804== 
+==13804== HEAP SUMMARY:
+==13804==     in use at exit: 407 bytes in 7 blocks
+==13804==   total heap usage: 318 allocs, 311 frees, 150,152 bytes allocated
+==13804== 
+==13804== 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==13804==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13804==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13804==    by 0x119864: SearchEng_ReadPageMultipleTimes_Test::TestBody() (searcheng_tests.cpp:114)
+==13804==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13804==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15A0A5: Run (gtest.cc:2508)
+==13804==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13804==    by 0x15A204: Run (gtest.cc:2684)
+==13804==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13804==    by 0x15A2EC: Run (gtest.cc:2816)
+==13804==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13804==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13804==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13804==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13804==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13804== 
+==13804== 8 bytes in 1 blocks are definitely lost in loss record 2 of 7
+==13804==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13804==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13804==    by 0x119864: SearchEng_ReadPageMultipleTimes_Test::TestBody() (searcheng_tests.cpp:114)
+==13804==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13804==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15A0A5: Run (gtest.cc:2508)
+==13804==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13804==    by 0x15A204: Run (gtest.cc:2684)
+==13804==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13804==    by 0x15A2EC: Run (gtest.cc:2816)
+==13804==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13804==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13804==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13804==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13804==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13804== 
+==13804== 391 (176 direct, 215 indirect) bytes in 1 blocks are definitely lost in loss record 7 of 7
+==13804==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13804==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13804==    by 0x119920: SearchEng_ReadPageMultipleTimes_Test::TestBody() (searcheng_tests.cpp:119)
+==13804==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13804==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15A0A5: Run (gtest.cc:2508)
+==13804==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13804==    by 0x15A204: Run (gtest.cc:2684)
+==13804==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13804==    by 0x15A2EC: Run (gtest.cc:2816)
+==13804==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13804==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13804==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13804==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13804==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13804==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13804== 
+==13804== LEAK SUMMARY:
+==13804==    definitely lost: 192 bytes in 3 blocks
+==13804==    indirectly lost: 215 bytes in 4 blocks
+==13804==      possibly lost: 0 bytes in 0 blocks
+==13804==    still reachable: 0 bytes in 0 blocks
+==13804==         suppressed: 0 bytes in 0 blocks
+==13804== 
+==13804== For lists of detected and suppressed errors, rerun with: -s
+==13804== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.42 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.ReadPageMultipleTimes" end time: Feb 11 06:30 UTC
+"SearchEng.ReadPageMultipleTimes" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/9 Testing: SearchEng.ANDCombiner
+3/9 Test: SearchEng.ANDCombiner
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.ANDCombiner"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.ANDCombiner" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13805== Memcheck, a memory error detector
+==13805== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13805== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13805== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.ANDCombiner
+==13805== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.ANDCombiner
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.ANDCombiner
+[       OK ] SearchEng.ANDCombiner (324 ms)
+[----------] 1 test from SearchEng (333 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (356 ms total)
+[  PASSED  ] 1 test.
+==13805== 
+==13805== HEAP SUMMARY:
+==13805==     in use at exit: 1,360 bytes in 16 blocks
+==13805==   total heap usage: 367 allocs, 351 frees, 196,151 bytes allocated
+==13805== 
+==13805== 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==13805==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13805==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13805==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13805==    by 0x11A4B4: SearchEng_ANDCombiner_Test::TestBody() (searcheng_tests.cpp:140)
+==13805==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13805==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15A0A5: Run (gtest.cc:2508)
+==13805==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13805==    by 0x15A204: Run (gtest.cc:2684)
+==13805==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13805==    by 0x15A2EC: Run (gtest.cc:2816)
+==13805==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13805==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13805==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13805==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13805==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13805== 
+==13805== 8 bytes in 1 blocks are definitely lost in loss record 2 of 7
+==13805==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13805==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13805==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13805==    by 0x11A4B4: SearchEng_ANDCombiner_Test::TestBody() (searcheng_tests.cpp:140)
+==13805==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13805==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15A0A5: Run (gtest.cc:2508)
+==13805==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13805==    by 0x15A204: Run (gtest.cc:2684)
+==13805==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13805==    by 0x15A2EC: Run (gtest.cc:2816)
+==13805==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13805==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13805==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13805==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13805==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13805== 
+==13805== 1,344 (704 direct, 640 indirect) bytes in 4 blocks are definitely lost in loss record 7 of 7
+==13805==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13805==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13805==    by 0x118A44: searchEngTestSetup() (searcheng_tests.cpp:73)
+==13805==    by 0x11A4B4: SearchEng_ANDCombiner_Test::TestBody() (searcheng_tests.cpp:140)
+==13805==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13805==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15A0A5: Run (gtest.cc:2508)
+==13805==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13805==    by 0x15A204: Run (gtest.cc:2684)
+==13805==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13805==    by 0x15A2EC: Run (gtest.cc:2816)
+==13805==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13805==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13805==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13805==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13805==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13805==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13805== 
+==13805== LEAK SUMMARY:
+==13805==    definitely lost: 720 bytes in 6 blocks
+==13805==    indirectly lost: 640 bytes in 10 blocks
+==13805==      possibly lost: 0 bytes in 0 blocks
+==13805==    still reachable: 0 bytes in 0 blocks
+==13805==         suppressed: 0 bytes in 0 blocks
+==13805== 
+==13805== For lists of detected and suppressed errors, rerun with: -s
+==13805== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.ANDCombiner" end time: Feb 11 06:30 UTC
+"SearchEng.ANDCombiner" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/9 Testing: SearchEng.ORCombiner
+4/9 Test: SearchEng.ORCombiner
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.ORCombiner"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.ORCombiner" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13806== Memcheck, a memory error detector
+==13806== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13806== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13806== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.ORCombiner
+==13806== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.ORCombiner
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.ORCombiner
+[       OK ] SearchEng.ORCombiner (240 ms)
+[----------] 1 test from SearchEng (247 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (270 ms total)
+[  PASSED  ] 1 test.
+==13806== 
+==13806== HEAP SUMMARY:
+==13806==     in use at exit: 1,664 bytes in 19 blocks
+==13806==   total heap usage: 391 allocs, 372 frees, 214,744 bytes allocated
+==13806== 
+==13806== 8 bytes in 1 blocks are definitely lost in loss record 1 of 8
+==13806==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13806==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13806==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13806==    by 0x11BA3E: SearchEng_ORCombiner_Test::TestBody() (searcheng_tests.cpp:169)
+==13806==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13806==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15A0A5: Run (gtest.cc:2508)
+==13806==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13806==    by 0x15A204: Run (gtest.cc:2684)
+==13806==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13806==    by 0x15A2EC: Run (gtest.cc:2816)
+==13806==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13806==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13806==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13806==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13806==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13806== 
+==13806== 8 bytes in 1 blocks are definitely lost in loss record 2 of 8
+==13806==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13806==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13806==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13806==    by 0x11BA3E: SearchEng_ORCombiner_Test::TestBody() (searcheng_tests.cpp:169)
+==13806==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13806==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15A0A5: Run (gtest.cc:2508)
+==13806==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13806==    by 0x15A204: Run (gtest.cc:2684)
+==13806==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13806==    by 0x15A2EC: Run (gtest.cc:2816)
+==13806==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13806==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13806==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13806==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13806==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13806== 
+==13806== 304 (176 direct, 128 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 8
+==13806==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13806==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13806==    by 0x11BB3B: SearchEng_ORCombiner_Test::TestBody() (searcheng_tests.cpp:172)
+==13806==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13806==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15A0A5: Run (gtest.cc:2508)
+==13806==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13806==    by 0x15A204: Run (gtest.cc:2684)
+==13806==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13806==    by 0x15A2EC: Run (gtest.cc:2816)
+==13806==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13806==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13806==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13806==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13806==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13806== 
+==13806== 1,344 (704 direct, 640 indirect) bytes in 4 blocks are definitely lost in loss record 8 of 8
+==13806==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13806==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13806==    by 0x118A44: searchEngTestSetup() (searcheng_tests.cpp:73)
+==13806==    by 0x11BA3E: SearchEng_ORCombiner_Test::TestBody() (searcheng_tests.cpp:169)
+==13806==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13806==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15A0A5: Run (gtest.cc:2508)
+==13806==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13806==    by 0x15A204: Run (gtest.cc:2684)
+==13806==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13806==    by 0x15A2EC: Run (gtest.cc:2816)
+==13806==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13806==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13806==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13806==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13806==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13806==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13806== 
+==13806== LEAK SUMMARY:
+==13806==    definitely lost: 896 bytes in 7 blocks
+==13806==    indirectly lost: 768 bytes in 12 blocks
+==13806==      possibly lost: 0 bytes in 0 blocks
+==13806==    still reachable: 0 bytes in 0 blocks
+==13806==         suppressed: 0 bytes in 0 blocks
+==13806== 
+==13806== For lists of detected and suppressed errors, rerun with: -s
+==13806== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.ORCombiner" end time: Feb 11 06:30 UTC
+"SearchEng.ORCombiner" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/9 Testing: SearchEng.DiffCombiner
+5/9 Test: SearchEng.DiffCombiner
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.DiffCombiner"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.DiffCombiner" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13807== Memcheck, a memory error detector
+==13807== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13807== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13807== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.DiffCombiner
+==13807== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.DiffCombiner
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.DiffCombiner
+[       OK ] SearchEng.DiffCombiner (301 ms)
+[----------] 1 test from SearchEng (308 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (332 ms total)
+[  PASSED  ] 1 test.
+==13807== 
+==13807== HEAP SUMMARY:
+==13807==     in use at exit: 1,664 bytes in 19 blocks
+==13807==   total heap usage: 375 allocs, 356 frees, 213,910 bytes allocated
+==13807== 
+==13807== 8 bytes in 1 blocks are definitely lost in loss record 1 of 8
+==13807==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13807==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13807==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13807==    by 0x11CB30: SearchEng_DiffCombiner_Test::TestBody() (searcheng_tests.cpp:199)
+==13807==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13807==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15A0A5: Run (gtest.cc:2508)
+==13807==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13807==    by 0x15A204: Run (gtest.cc:2684)
+==13807==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13807==    by 0x15A2EC: Run (gtest.cc:2816)
+==13807==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13807==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13807==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13807==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13807==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13807== 
+==13807== 8 bytes in 1 blocks are definitely lost in loss record 2 of 8
+==13807==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13807==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13807==    by 0x11879E: searchEngTestSetup() (searcheng_tests.cpp:66)
+==13807==    by 0x11CB30: SearchEng_DiffCombiner_Test::TestBody() (searcheng_tests.cpp:199)
+==13807==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13807==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15A0A5: Run (gtest.cc:2508)
+==13807==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13807==    by 0x15A204: Run (gtest.cc:2684)
+==13807==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13807==    by 0x15A2EC: Run (gtest.cc:2816)
+==13807==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13807==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13807==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13807==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13807==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13807== 
+==13807== 304 (176 direct, 128 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 8
+==13807==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13807==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13807==    by 0x11CC2D: SearchEng_DiffCombiner_Test::TestBody() (searcheng_tests.cpp:202)
+==13807==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13807==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15A0A5: Run (gtest.cc:2508)
+==13807==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13807==    by 0x15A204: Run (gtest.cc:2684)
+==13807==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13807==    by 0x15A2EC: Run (gtest.cc:2816)
+==13807==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13807==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13807==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13807==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13807==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13807== 
+==13807== 1,344 (704 direct, 640 indirect) bytes in 4 blocks are definitely lost in loss record 8 of 8
+==13807==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13807==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13807==    by 0x118A44: searchEngTestSetup() (searcheng_tests.cpp:73)
+==13807==    by 0x11CB30: SearchEng_DiffCombiner_Test::TestBody() (searcheng_tests.cpp:199)
+==13807==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13807==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15A0A5: Run (gtest.cc:2508)
+==13807==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13807==    by 0x15A204: Run (gtest.cc:2684)
+==13807==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13807==    by 0x15A2EC: Run (gtest.cc:2816)
+==13807==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13807==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13807==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13807==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13807==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13807==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13807== 
+==13807== LEAK SUMMARY:
+==13807==    definitely lost: 896 bytes in 7 blocks
+==13807==    indirectly lost: 768 bytes in 12 blocks
+==13807==      possibly lost: 0 bytes in 0 blocks
+==13807==    still reachable: 0 bytes in 0 blocks
+==13807==         suppressed: 0 bytes in 0 blocks
+==13807== 
+==13807== For lists of detected and suppressed errors, rerun with: -s
+==13807== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.DiffCombiner" end time: Feb 11 06:30 UTC
+"SearchEng.DiffCombiner" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/9 Testing: SearchEng.RetrievePage
+6/9 Test: SearchEng.RetrievePage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.RetrievePage"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.RetrievePage" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13808== Memcheck, a memory error detector
+==13808== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13808== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13808== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.RetrievePage
+==13808== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.RetrievePage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.RetrievePage
+Checking links for page test-small/pga.md
+Expect outgoing outgoingLinks: [test-small/pgc.md, test-small/pgg.md] actual [test-small/pgc.md, test-small/pgg.md]
+Expect incoming outgoingLinks: [test-small/pgb.md] actual [test-small/pgb.md]
+Checking links for page test-small/pgb.md
+Expect outgoing outgoingLinks: [test-small/pga.md, test-small/pge.md, test-small/pgf.md] actual [test-small/pga.md, test-small/pge.md, test-small/pgf.md]
+Expect incoming outgoingLinks: [test-small/pgc.md] actual [test-small/pgc.md]
+Checking links for page test-small/pgc.md
+Expect outgoing outgoingLinks: [test-small/pgb.md] actual [test-small/pgb.md]
+Expect incoming outgoingLinks: [test-small/pga.md, test-small/pgd.md, test-small/pge.md] actual [test-small/pga.md, test-small/pgd.md, test-small/pge.md]
+Checking links for page test-small/pgd.md
+Expect outgoing outgoingLinks: [test-small/pgc.md] actual [test-small/pgc.md]
+Expect incoming outgoingLinks: [test-small/pge.md] actual [test-small/pge.md]
+Checking links for page test-small/pge.md
+Expect outgoing outgoingLinks: [test-small/pgc.md, test-small/pgd.md, test-small/pgf.md] actual [test-small/pgc.md, test-small/pgd.md, test-small/pgf.md]
+Expect incoming outgoingLinks: [test-small/pgb.md] actual [test-small/pgb.md]
+Checking links for page test-small/pgf.md
+Expect outgoing outgoingLinks: [] actual []
+Expect incoming outgoingLinks: [test-small/pgb.md, test-small/pge.md] actual [test-small/pgb.md, test-small/pge.md]
+Checking links for page test-small/pgg.md
+Expect outgoing outgoingLinks: [] actual []
+Expect incoming outgoingLinks: [test-small/pga.md] actual [test-small/pga.md]
+[       OK ] SearchEng.RetrievePage (393 ms)
+[----------] 1 test from SearchEng (410 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (485 ms total)
+[  PASSED  ] 1 test.
+==13808== 
+==13808== HEAP SUMMARY:
+==13808==     in use at exit: 7,364 bytes in 115 blocks
+==13808==   total heap usage: 949 allocs, 834 frees, 254,185 bytes allocated
+==13808== 
+==13808== 8 bytes in 1 blocks are definitely lost in loss record 1 of 27
+==13808==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13808==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13808==    by 0x11DBD4: SearchEng_RetrievePage_Test::TestBody() (searcheng_tests.cpp:227)
+==13808==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13808==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15A0A5: Run (gtest.cc:2508)
+==13808==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13808==    by 0x15A204: Run (gtest.cc:2684)
+==13808==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13808==    by 0x15A2EC: Run (gtest.cc:2816)
+==13808==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13808==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13808==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13808==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13808==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13808== 
+==13808== 8 bytes in 1 blocks are definitely lost in loss record 2 of 27
+==13808==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13808==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13808==    by 0x11DBD4: SearchEng_RetrievePage_Test::TestBody() (searcheng_tests.cpp:227)
+==13808==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13808==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15A0A5: Run (gtest.cc:2508)
+==13808==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13808==    by 0x15A204: Run (gtest.cc:2684)
+==13808==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13808==    by 0x15A2EC: Run (gtest.cc:2816)
+==13808==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13808==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13808==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13808==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13808==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13808== 
+==13808== 259 (176 direct, 83 indirect) bytes in 1 blocks are definitely lost in loss record 15 of 27
+==13808==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13808==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13808==    by 0x11F50A: SearchEng_RetrievePage_Test::TestBody() (searcheng_tests.cpp:302)
+==13808==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13808==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15A0A5: Run (gtest.cc:2508)
+==13808==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13808==    by 0x15A204: Run (gtest.cc:2684)
+==13808==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13808==    by 0x15A2EC: Run (gtest.cc:2816)
+==13808==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13808==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13808==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13808==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13808==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13808== 
+==13808== 7,089 (352 direct, 6,737 indirect) bytes in 2 blocks are definitely lost in loss record 27 of 27
+==13808==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13808==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13808==    by 0x130019: SearchEng::read_pages_from_index(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:59)
+==13808==    by 0x11DC27: SearchEng_RetrievePage_Test::TestBody() (searcheng_tests.cpp:228)
+==13808==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13808==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15A0A5: Run (gtest.cc:2508)
+==13808==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13808==    by 0x15A204: Run (gtest.cc:2684)
+==13808==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13808==    by 0x15A2EC: Run (gtest.cc:2816)
+==13808==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13808==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13808==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13808==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13808==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13808==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13808== 
+==13808== LEAK SUMMARY:
+==13808==    definitely lost: 544 bytes in 5 blocks
+==13808==    indirectly lost: 6,820 bytes in 110 blocks
+==13808==      possibly lost: 0 bytes in 0 blocks
+==13808==    still reachable: 0 bytes in 0 blocks
+==13808==         suppressed: 0 bytes in 0 blocks
+==13808== 
+==13808== For lists of detected and suppressed errors, rerun with: -s
+==13808== ERROR SUMMARY: 4 errors from 4 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.88 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.RetrievePage" end time: Feb 11 06:30 UTC
+"SearchEng.RetrievePage" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/9 Testing: SearchEng.LinkCornerCases
+7/9 Test: SearchEng.LinkCornerCases
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.LinkCornerCases"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.LinkCornerCases" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13809== Memcheck, a memory error detector
+==13809== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13809== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13809== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.LinkCornerCases
+==13809== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.LinkCornerCases
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.LinkCornerCases
+[       OK ] SearchEng.LinkCornerCases (148 ms)
+[----------] 1 test from SearchEng (158 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (186 ms total)
+[  PASSED  ] 1 test.
+==13809== 
+==13809== HEAP SUMMARY:
+==13809==     in use at exit: 354 bytes in 7 blocks
+==13809==   total heap usage: 291 allocs, 284 frees, 138,990 bytes allocated
+==13809== 
+==13809== 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==13809==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13809==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13809==    by 0x120718: SearchEng_LinkCornerCases_Test::TestBody() (searcheng_tests.cpp:314)
+==13809==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13809==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15A0A5: Run (gtest.cc:2508)
+==13809==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13809==    by 0x15A204: Run (gtest.cc:2684)
+==13809==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13809==    by 0x15A2EC: Run (gtest.cc:2816)
+==13809==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13809==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13809==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13809==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13809==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13809== 
+==13809== 8 bytes in 1 blocks are definitely lost in loss record 2 of 7
+==13809==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13809==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13809==    by 0x120718: SearchEng_LinkCornerCases_Test::TestBody() (searcheng_tests.cpp:314)
+==13809==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13809==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15A0A5: Run (gtest.cc:2508)
+==13809==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13809==    by 0x15A204: Run (gtest.cc:2684)
+==13809==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13809==    by 0x15A2EC: Run (gtest.cc:2816)
+==13809==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13809==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13809==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13809==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13809==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13809== 
+==13809== 338 (176 direct, 162 indirect) bytes in 1 blocks are definitely lost in loss record 7 of 7
+==13809==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13809==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13809==    by 0x1207C8: SearchEng_LinkCornerCases_Test::TestBody() (searcheng_tests.cpp:317)
+==13809==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13809==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15A0A5: Run (gtest.cc:2508)
+==13809==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13809==    by 0x15A204: Run (gtest.cc:2684)
+==13809==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13809==    by 0x15A2EC: Run (gtest.cc:2816)
+==13809==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13809==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13809==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13809==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13809==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13809==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13809== 
+==13809== LEAK SUMMARY:
+==13809==    definitely lost: 192 bytes in 3 blocks
+==13809==    indirectly lost: 162 bytes in 4 blocks
+==13809==      possibly lost: 0 bytes in 0 blocks
+==13809==    still reachable: 0 bytes in 0 blocks
+==13809==         suppressed: 0 bytes in 0 blocks
+==13809== 
+==13809== For lists of detected and suppressed errors, rerun with: -s
+==13809== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.30 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.LinkCornerCases" end time: Feb 11 06:30 UTC
+"SearchEng.LinkCornerCases" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/9 Testing: SearchEng.SameLink
+8/9 Test: SearchEng.SameLink
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.SameLink"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.SameLink" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13810== Memcheck, a memory error detector
+==13810== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13810== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13810== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.SameLink
+==13810== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.SameLink
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.SameLink
+[       OK ] SearchEng.SameLink (744 ms)
+[----------] 1 test from SearchEng (750 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (771 ms total)
+[  PASSED  ] 1 test.
+==13810== 
+==13810== HEAP SUMMARY:
+==13810==     in use at exit: 512 bytes in 7 blocks
+==13810==   total heap usage: 298 allocs, 291 frees, 871,471 bytes allocated
+==13810== 
+==13810== 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==13810==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13810==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13810==    by 0x120FA4: SearchEng_SameLink_Test::TestBody() (searcheng_tests.cpp:328)
+==13810==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13810==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15A0A5: Run (gtest.cc:2508)
+==13810==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13810==    by 0x15A204: Run (gtest.cc:2684)
+==13810==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13810==    by 0x15A2EC: Run (gtest.cc:2816)
+==13810==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13810==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13810==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13810==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13810==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13810== 
+==13810== 8 bytes in 1 blocks are definitely lost in loss record 2 of 7
+==13810==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13810==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13810==    by 0x120FA4: SearchEng_SameLink_Test::TestBody() (searcheng_tests.cpp:328)
+==13810==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13810==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15A0A5: Run (gtest.cc:2508)
+==13810==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13810==    by 0x15A204: Run (gtest.cc:2684)
+==13810==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13810==    by 0x15A2EC: Run (gtest.cc:2816)
+==13810==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13810==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13810==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13810==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13810==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13810== 
+==13810== 496 (176 direct, 320 indirect) bytes in 1 blocks are definitely lost in loss record 7 of 7
+==13810==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13810==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13810==    by 0x121135: SearchEng_SameLink_Test::TestBody() (searcheng_tests.cpp:337)
+==13810==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13810==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15A0A5: Run (gtest.cc:2508)
+==13810==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13810==    by 0x15A204: Run (gtest.cc:2684)
+==13810==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13810==    by 0x15A2EC: Run (gtest.cc:2816)
+==13810==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13810==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13810==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13810==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13810==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13810==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13810== 
+==13810== LEAK SUMMARY:
+==13810==    definitely lost: 192 bytes in 3 blocks
+==13810==    indirectly lost: 320 bytes in 4 blocks
+==13810==      possibly lost: 0 bytes in 0 blocks
+==13810==    still reachable: 0 bytes in 0 blocks
+==13810==         suppressed: 0 bytes in 0 blocks
+==13810== 
+==13810== For lists of detected and suppressed errors, rerun with: -s
+==13810== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.92 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.SameLink" end time: Feb 11 06:30 UTC
+"SearchEng.SameLink" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/9 Testing: SearchEng.DisplayPage
+9/9 Test: SearchEng.DisplayPage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests" "--gtest_filter=SearchEng.DisplayPage"
+Directory: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests
+"SearchEng.DisplayPage" start time: Feb 11 06:30 UTC
+Output:
+----------------------------------------------------------
+==13811== Memcheck, a memory error detector
+==13811== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13811== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==13811== Command: /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests --gtest_filter=SearchEng.DisplayPage
+==13811== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SearchEng.DisplayPage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SearchEng
+[ RUN      ] SearchEng.DisplayPage
+[       OK ] SearchEng.DisplayPage (154 ms)
+[----------] 1 test from SearchEng (160 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (183 ms total)
+[  PASSED  ] 1 test.
+==13811== 
+==13811== HEAP SUMMARY:
+==13811==     in use at exit: 851 bytes in 12 blocks
+==13811==   total heap usage: 299 allocs, 287 frees, 148,432 bytes allocated
+==13811== 
+==13811== 8 bytes in 1 blocks are definitely lost in loss record 1 of 9
+==13811==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13811==    by 0x1183C6: searchEngFactory() (searcheng_tests.cpp:41)
+==13811==    by 0x121BC2: SearchEng_DisplayPage_Test::TestBody() (searcheng_tests.cpp:351)
+==13811==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13811==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15A0A5: Run (gtest.cc:2508)
+==13811==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13811==    by 0x15A204: Run (gtest.cc:2684)
+==13811==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13811==    by 0x15A2EC: Run (gtest.cc:2816)
+==13811==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13811==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13811==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13811==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13811==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13811== 
+==13811== 8 bytes in 1 blocks are definitely lost in loss record 2 of 9
+==13811==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13811==    by 0x118437: searchEngFactory() (searcheng_tests.cpp:42)
+==13811==    by 0x121BC2: SearchEng_DisplayPage_Test::TestBody() (searcheng_tests.cpp:351)
+==13811==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13811==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15A0A5: Run (gtest.cc:2508)
+==13811==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13811==    by 0x15A204: Run (gtest.cc:2684)
+==13811==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13811==    by 0x15A2EC: Run (gtest.cc:2816)
+==13811==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13811==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13811==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13811==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13811==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13811== 
+==13811== 835 (176 direct, 659 indirect) bytes in 1 blocks are definitely lost in loss record 9 of 9
+==13811==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13811==    by 0x1302D2: SearchEng::read_page(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (searcheng.cpp:88)
+==13811==    by 0x121C84: SearchEng_DisplayPage_Test::TestBody() (searcheng_tests.cpp:354)
+==13811==    by 0x165A00: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==13811==    by 0x165A00: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15A0A5: Run (gtest.cc:2508)
+==13811==    by 0x15A0A5: testing::Test::Run() (gtest.cc:2498)
+==13811==    by 0x15A204: Run (gtest.cc:2684)
+==13811==    by 0x15A204: testing::TestInfo::Run() (gtest.cc:2657)
+==13811==    by 0x15A2EC: Run (gtest.cc:2816)
+==13811==    by 0x15A2EC: testing::TestSuite::Run() (gtest.cc:2795)
+==13811==    by 0x15A80B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==13811==    by 0x165F70: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==13811==    by 0x165F70: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==13811==    by 0x15AA3B: testing::UnitTest::Run() (gtest.cc:4925)
+==13811==    by 0x117D63: main (in /work/hw-jtglover/hw2/hw2_tests/searcheng_tests/searcheng_tests)
+==13811== 
+==13811== LEAK SUMMARY:
+==13811==    definitely lost: 192 bytes in 3 blocks
+==13811==    indirectly lost: 659 bytes in 9 blocks
+==13811==      possibly lost: 0 bytes in 0 blocks
+==13811==    still reachable: 0 bytes in 0 blocks
+==13811==         suppressed: 0 bytes in 0 blocks
+==13811== 
+==13811== For lists of detected and suppressed errors, rerun with: -s
+==13811== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.30 sec
+----------------------------------------------------------
+Test Passed.
+"SearchEng.DisplayPage" end time: Feb 11 06:30 UTC
+"SearchEng.DisplayPage" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 11 06:30 UTC

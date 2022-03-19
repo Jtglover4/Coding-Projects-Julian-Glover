@@ -1,0 +1,10 @@
+1:Parsers.MdParserSpecialStart
+2:Parsers.MdParserSpecialEnd
+3:Parsers.MdParserSpecialMiddle
+4:Parsers.MdParserTextFull
+5:Parsers.MdParserLinksSepStart
+6:Parsers.MdParserLinksSepEnd
+7:Parsers.MdParserLinksSepMiddle
+8:Parsers.MdParserLinksFull
+9:Parsers.MDWriteupCornerCases
+10:Parsers.MDAnchorAnchor

@@ -1,0 +1,11 @@
+Parsers.MdParserSpecialStart 1 1.5062
+Parsers.MdParserSpecialEnd 1 1.30426
+Parsers.MdParserSpecialMiddle 1 1.43341
+Parsers.MdParserTextFull 1 1.72611
+Parsers.MdParserLinksSepStart 1 1.84972
+Parsers.MdParserLinksSepEnd 1 5.02978
+Parsers.MdParserLinksSepMiddle 1 1.29065
+Parsers.MdParserLinksFull 1 1.29751
+Parsers.MDWriteupCornerCases 1 2.50973
+Parsers.MDAnchorAnchor 1 1.19866
+---

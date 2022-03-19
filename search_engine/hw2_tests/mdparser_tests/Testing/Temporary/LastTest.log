@@ -1,0 +1,413 @@
+Start testing: Feb 11 03:54 UTC
+----------------------------------------------------------
+1/10 Testing: Parsers.MdParserSpecialStart
+1/10 Test: Parsers.MdParserSpecialStart
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserSpecialStart"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserSpecialStart" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11508== Memcheck, a memory error detector
+==11508== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11508== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11508== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserSpecialStart
+==11508== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserSpecialStart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserSpecialStart
+[       OK ] Parsers.MdParserSpecialStart (62 ms)
+[----------] 1 test from Parsers (69 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==11508== 
+==11508== HEAP SUMMARY:
+==11508==     in use at exit: 0 bytes in 0 blocks
+==11508==   total heap usage: 300 allocs, 300 frees, 121,891 bytes allocated
+==11508== 
+==11508== All heap blocks were freed -- no leaks are possible
+==11508== 
+==11508== For lists of detected and suppressed errors, rerun with: -s
+==11508== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.51 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserSpecialStart" end time: Feb 11 03:54 UTC
+"Parsers.MdParserSpecialStart" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/10 Testing: Parsers.MdParserSpecialEnd
+2/10 Test: Parsers.MdParserSpecialEnd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserSpecialEnd"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserSpecialEnd" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11509== Memcheck, a memory error detector
+==11509== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11509== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11509== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserSpecialEnd
+==11509== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserSpecialEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserSpecialEnd
+[       OK ] Parsers.MdParserSpecialEnd (65 ms)
+[----------] 1 test from Parsers (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==11509== 
+==11509== HEAP SUMMARY:
+==11509==     in use at exit: 0 bytes in 0 blocks
+==11509==   total heap usage: 300 allocs, 300 frees, 121,877 bytes allocated
+==11509== 
+==11509== All heap blocks were freed -- no leaks are possible
+==11509== 
+==11509== For lists of detected and suppressed errors, rerun with: -s
+==11509== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.30 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserSpecialEnd" end time: Feb 11 03:54 UTC
+"Parsers.MdParserSpecialEnd" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/10 Testing: Parsers.MdParserSpecialMiddle
+3/10 Test: Parsers.MdParserSpecialMiddle
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserSpecialMiddle"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserSpecialMiddle" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11510== Memcheck, a memory error detector
+==11510== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11510== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11510== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserSpecialMiddle
+==11510== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserSpecialMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserSpecialMiddle
+[       OK ] Parsers.MdParserSpecialMiddle (67 ms)
+[----------] 1 test from Parsers (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (94 ms total)
+[  PASSED  ] 1 test.
+==11510== 
+==11510== HEAP SUMMARY:
+==11510==     in use at exit: 0 bytes in 0 blocks
+==11510==   total heap usage: 304 allocs, 304 frees, 122,077 bytes allocated
+==11510== 
+==11510== All heap blocks were freed -- no leaks are possible
+==11510== 
+==11510== For lists of detected and suppressed errors, rerun with: -s
+==11510== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserSpecialMiddle" end time: Feb 11 03:54 UTC
+"Parsers.MdParserSpecialMiddle" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/10 Testing: Parsers.MdParserTextFull
+4/10 Test: Parsers.MdParserTextFull
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserTextFull"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserTextFull" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11511== Memcheck, a memory error detector
+==11511== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11511== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11511== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserTextFull
+==11511== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserTextFull
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserTextFull
+[       OK ] Parsers.MdParserTextFull (76 ms)
+[----------] 1 test from Parsers (82 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+==11511== 
+==11511== HEAP SUMMARY:
+==11511==     in use at exit: 0 bytes in 0 blocks
+==11511==   total heap usage: 318 allocs, 318 frees, 123,708 bytes allocated
+==11511== 
+==11511== All heap blocks were freed -- no leaks are possible
+==11511== 
+==11511== For lists of detected and suppressed errors, rerun with: -s
+==11511== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserTextFull" end time: Feb 11 03:54 UTC
+"Parsers.MdParserTextFull" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/10 Testing: Parsers.MdParserLinksSepStart
+5/10 Test: Parsers.MdParserLinksSepStart
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserLinksSepStart"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserLinksSepStart" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11512== Memcheck, a memory error detector
+==11512== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11512== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11512== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserLinksSepStart
+==11512== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserLinksSepStart
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserLinksSepStart
+[       OK ] Parsers.MdParserLinksSepStart (119 ms)
+[----------] 1 test from Parsers (135 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (174 ms total)
+[  PASSED  ] 1 test.
+==11512== 
+==11512== HEAP SUMMARY:
+==11512==     in use at exit: 0 bytes in 0 blocks
+==11512==   total heap usage: 312 allocs, 312 frees, 122,307 bytes allocated
+==11512== 
+==11512== All heap blocks were freed -- no leaks are possible
+==11512== 
+==11512== For lists of detected and suppressed errors, rerun with: -s
+==11512== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.85 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserLinksSepStart" end time: Feb 11 03:54 UTC
+"Parsers.MdParserLinksSepStart" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/10 Testing: Parsers.MdParserLinksSepEnd
+6/10 Test: Parsers.MdParserLinksSepEnd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserLinksSepEnd"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserLinksSepEnd" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11513== Memcheck, a memory error detector
+==11513== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11513== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11513== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserLinksSepEnd
+==11513== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserLinksSepEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserLinksSepEnd
+[       OK ] Parsers.MdParserLinksSepEnd (67 ms)
+[----------] 1 test from Parsers (73 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (97 ms total)
+[  PASSED  ] 1 test.
+==11513== 
+==11513== HEAP SUMMARY:
+==11513==     in use at exit: 0 bytes in 0 blocks
+==11513==   total heap usage: 312 allocs, 312 frees, 122,293 bytes allocated
+==11513== 
+==11513== All heap blocks were freed -- no leaks are possible
+==11513== 
+==11513== For lists of detected and suppressed errors, rerun with: -s
+==11513== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   5.03 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserLinksSepEnd" end time: Feb 11 03:54 UTC
+"Parsers.MdParserLinksSepEnd" time elapsed: 00:00:05
+----------------------------------------------------------
+
+7/10 Testing: Parsers.MdParserLinksSepMiddle
+7/10 Test: Parsers.MdParserLinksSepMiddle
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserLinksSepMiddle"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserLinksSepMiddle" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11514== Memcheck, a memory error detector
+==11514== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11514== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11514== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserLinksSepMiddle
+==11514== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserLinksSepMiddle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserLinksSepMiddle
+[       OK ] Parsers.MdParserLinksSepMiddle (68 ms)
+[----------] 1 test from Parsers (75 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (101 ms total)
+[  PASSED  ] 1 test.
+==11514== 
+==11514== HEAP SUMMARY:
+==11514==     in use at exit: 0 bytes in 0 blocks
+==11514==   total heap usage: 314 allocs, 314 frees, 122,600 bytes allocated
+==11514== 
+==11514== All heap blocks were freed -- no leaks are possible
+==11514== 
+==11514== For lists of detected and suppressed errors, rerun with: -s
+==11514== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserLinksSepMiddle" end time: Feb 11 03:54 UTC
+"Parsers.MdParserLinksSepMiddle" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/10 Testing: Parsers.MdParserLinksFull
+8/10 Test: Parsers.MdParserLinksFull
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MdParserLinksFull"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MdParserLinksFull" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11515== Memcheck, a memory error detector
+==11515== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11515== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11515== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MdParserLinksFull
+==11515== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MdParserLinksFull
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MdParserLinksFull
+[       OK ] Parsers.MdParserLinksFull (67 ms)
+[----------] 1 test from Parsers (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==11515== 
+==11515== HEAP SUMMARY:
+==11515==     in use at exit: 0 bytes in 0 blocks
+==11515==   total heap usage: 312 allocs, 312 frees, 122,264 bytes allocated
+==11515== 
+==11515== All heap blocks were freed -- no leaks are possible
+==11515== 
+==11515== For lists of detected and suppressed errors, rerun with: -s
+==11515== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.30 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MdParserLinksFull" end time: Feb 11 03:54 UTC
+"Parsers.MdParserLinksFull" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/10 Testing: Parsers.MDWriteupCornerCases
+9/10 Test: Parsers.MDWriteupCornerCases
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MDWriteupCornerCases"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MDWriteupCornerCases" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11516== Memcheck, a memory error detector
+==11516== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11516== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11516== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MDWriteupCornerCases
+==11516== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MDWriteupCornerCases
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MDWriteupCornerCases
+[       OK ] Parsers.MDWriteupCornerCases (71 ms)
+[----------] 1 test from Parsers (77 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (101 ms total)
+[  PASSED  ] 1 test.
+==11516== 
+==11516== HEAP SUMMARY:
+==11516==     in use at exit: 0 bytes in 0 blocks
+==11516==   total heap usage: 330 allocs, 330 frees, 123,517 bytes allocated
+==11516== 
+==11516== All heap blocks were freed -- no leaks are possible
+==11516== 
+==11516== For lists of detected and suppressed errors, rerun with: -s
+==11516== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.51 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MDWriteupCornerCases" end time: Feb 11 03:54 UTC
+"Parsers.MDWriteupCornerCases" time elapsed: 00:00:02
+----------------------------------------------------------
+
+10/10 Testing: Parsers.MDAnchorAnchor
+10/10 Test: Parsers.MDAnchorAnchor
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests" "--gtest_filter=Parsers.MDAnchorAnchor"
+Directory: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests
+"Parsers.MDAnchorAnchor" start time: Feb 11 03:54 UTC
+Output:
+----------------------------------------------------------
+==11517== Memcheck, a memory error detector
+==11517== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==11517== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==11517== Command: /work/hw-jtglover/hw2/hw2_tests/mdparser_tests/mdparser_tests --gtest_filter=Parsers.MDAnchorAnchor
+==11517== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Parsers.MDAnchorAnchor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parsers
+[ RUN      ] Parsers.MDAnchorAnchor
+[       OK ] Parsers.MDAnchorAnchor (68 ms)
+[----------] 1 test from Parsers (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (96 ms total)
+[  PASSED  ] 1 test.
+==11517== 
+==11517== HEAP SUMMARY:
+==11517==     in use at exit: 0 bytes in 0 blocks
+==11517==   total heap usage: 325 allocs, 325 frees, 123,202 bytes allocated
+==11517== 
+==11517== All heap blocks were freed -- no leaks are possible
+==11517== 
+==11517== For lists of detected and suppressed errors, rerun with: -s
+==11517== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.20 sec
+----------------------------------------------------------
+Test Passed.
+"Parsers.MDAnchorAnchor" end time: Feb 11 03:54 UTC
+"Parsers.MDAnchorAnchor" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 11 03:54 UTC

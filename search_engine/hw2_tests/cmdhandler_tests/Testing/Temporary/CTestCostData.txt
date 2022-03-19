@@ -1,0 +1,6 @@
+Cmdhandlers.AndHandler 2 0.807351
+Cmdhandlers.OrHandler 2 0.629654
+Cmdhandlers.DiffHandler 3 0.40609
+Cmdhandlers.IncomingHandler 6 0.239302
+Cmdhandlers.OutgoingHandler 6 0.294556
+---
