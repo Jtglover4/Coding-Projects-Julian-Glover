@@ -1,0 +1,495 @@
+Start testing: Mar 29 04:43 UTC
+----------------------------------------------------------
+1/12 Testing: EqualPaths.Empty
+1/12 Test: EqualPaths.Empty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.Empty"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.Empty" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4246== Memcheck, a memory error detector
+==4246== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4246== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4246== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.Empty
+==4246== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.Empty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.Empty
+[       OK ] EqualPaths.Empty (7 ms)
+[----------] 1 test from EqualPaths (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (35 ms total)
+[  PASSED  ] 1 test.
+==4246== 
+==4246== HEAP SUMMARY:
+==4246==     in use at exit: 0 bytes in 0 blocks
+==4246==   total heap usage: 279 allocs, 279 frees, 122,142 bytes allocated
+==4246== 
+==4246== All heap blocks were freed -- no leaks are possible
+==4246== 
+==4246== For lists of detected and suppressed errors, rerun with: -s
+==4246== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.49 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.Empty" end time: Mar 29 04:43 UTC
+"EqualPaths.Empty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/12 Testing: EqualPaths.RootOnly
+2/12 Test: EqualPaths.RootOnly
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.RootOnly"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.RootOnly" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4247== Memcheck, a memory error detector
+==4247== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4247== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4247== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.RootOnly
+==4247== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.RootOnly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.RootOnly
+[       OK ] EqualPaths.RootOnly (8 ms)
+[----------] 1 test from EqualPaths (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (40 ms total)
+[  PASSED  ] 1 test.
+==4247== 
+==4247== HEAP SUMMARY:
+==4247==     in use at exit: 0 bytes in 0 blocks
+==4247==   total heap usage: 279 allocs, 279 frees, 122,163 bytes allocated
+==4247== 
+==4247== All heap blocks were freed -- no leaks are possible
+==4247== 
+==4247== For lists of detected and suppressed errors, rerun with: -s
+==4247== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.RootOnly" end time: Mar 29 04:43 UTC
+"EqualPaths.RootOnly" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/12 Testing: EqualPaths.RootLeft
+3/12 Test: EqualPaths.RootLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.RootLeft"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.RootLeft" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4248== Memcheck, a memory error detector
+==4248== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4248== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4248== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.RootLeft
+==4248== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.RootLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.RootLeft
+[       OK ] EqualPaths.RootLeft (9 ms)
+[----------] 1 test from EqualPaths (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==4248== 
+==4248== HEAP SUMMARY:
+==4248==     in use at exit: 0 bytes in 0 blocks
+==4248==   total heap usage: 279 allocs, 279 frees, 122,163 bytes allocated
+==4248== 
+==4248== All heap blocks were freed -- no leaks are possible
+==4248== 
+==4248== For lists of detected and suppressed errors, rerun with: -s
+==4248== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.55 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.RootLeft" end time: Mar 29 04:43 UTC
+"EqualPaths.RootLeft" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/12 Testing: EqualPaths.RootRight
+4/12 Test: EqualPaths.RootRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.RootRight"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.RootRight" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4249== Memcheck, a memory error detector
+==4249== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4249== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4249== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.RootRight
+==4249== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.RootRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.RootRight
+[       OK ] EqualPaths.RootRight (8 ms)
+[----------] 1 test from EqualPaths (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==4249== 
+==4249== HEAP SUMMARY:
+==4249==     in use at exit: 0 bytes in 0 blocks
+==4249==   total heap usage: 279 allocs, 279 frees, 122,170 bytes allocated
+==4249== 
+==4249== All heap blocks were freed -- no leaks are possible
+==4249== 
+==4249== For lists of detected and suppressed errors, rerun with: -s
+==4249== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.RootRight" end time: Mar 29 04:43 UTC
+"EqualPaths.RootRight" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/12 Testing: EqualPaths.Full1
+5/12 Test: EqualPaths.Full1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.Full1"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.Full1" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4250== Memcheck, a memory error detector
+==4250== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4250== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4250== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.Full1
+==4250== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.Full1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.Full1
+[       OK ] EqualPaths.Full1 (9 ms)
+[----------] 1 test from EqualPaths (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==4250== 
+==4250== HEAP SUMMARY:
+==4250==     in use at exit: 0 bytes in 0 blocks
+==4250==   total heap usage: 279 allocs, 279 frees, 122,142 bytes allocated
+==4250== 
+==4250== All heap blocks were freed -- no leaks are possible
+==4250== 
+==4250== For lists of detected and suppressed errors, rerun with: -s
+==4250== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.Full1" end time: Mar 29 04:43 UTC
+"EqualPaths.Full1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/12 Testing: EqualPaths.TrueTest1
+6/12 Test: EqualPaths.TrueTest1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.TrueTest1"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.TrueTest1" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4251== Memcheck, a memory error detector
+==4251== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4251== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4251== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.TrueTest1
+==4251== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.TrueTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.TrueTest1
+[       OK ] EqualPaths.TrueTest1 (10 ms)
+[----------] 1 test from EqualPaths (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+==4251== 
+==4251== HEAP SUMMARY:
+==4251==     in use at exit: 0 bytes in 0 blocks
+==4251==   total heap usage: 279 allocs, 279 frees, 122,170 bytes allocated
+==4251== 
+==4251== All heap blocks were freed -- no leaks are possible
+==4251== 
+==4251== For lists of detected and suppressed errors, rerun with: -s
+==4251== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.81 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.TrueTest1" end time: Mar 29 04:43 UTC
+"EqualPaths.TrueTest1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/12 Testing: EqualPaths.TrueTest2
+7/12 Test: EqualPaths.TrueTest2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.TrueTest2"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.TrueTest2" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4252== Memcheck, a memory error detector
+==4252== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4252== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4252== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.TrueTest2
+==4252== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.TrueTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.TrueTest2
+[       OK ] EqualPaths.TrueTest2 (9 ms)
+[----------] 1 test from EqualPaths (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==4252== 
+==4252== HEAP SUMMARY:
+==4252==     in use at exit: 0 bytes in 0 blocks
+==4252==   total heap usage: 279 allocs, 279 frees, 122,170 bytes allocated
+==4252== 
+==4252== All heap blocks were freed -- no leaks are possible
+==4252== 
+==4252== For lists of detected and suppressed errors, rerun with: -s
+==4252== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.TrueTest2" end time: Mar 29 04:43 UTC
+"EqualPaths.TrueTest2" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/12 Testing: EqualPaths.TrueTest3
+8/12 Test: EqualPaths.TrueTest3
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.TrueTest3"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.TrueTest3" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4253== Memcheck, a memory error detector
+==4253== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4253== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4253== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.TrueTest3
+==4253== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.TrueTest3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.TrueTest3
+[       OK ] EqualPaths.TrueTest3 (10 ms)
+[----------] 1 test from EqualPaths (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (56 ms total)
+[  PASSED  ] 1 test.
+==4253== 
+==4253== HEAP SUMMARY:
+==4253==     in use at exit: 0 bytes in 0 blocks
+==4253==   total heap usage: 279 allocs, 279 frees, 122,170 bytes allocated
+==4253== 
+==4253== All heap blocks were freed -- no leaks are possible
+==4253== 
+==4253== For lists of detected and suppressed errors, rerun with: -s
+==4253== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.75 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.TrueTest3" end time: Mar 29 04:43 UTC
+"EqualPaths.TrueTest3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/12 Testing: EqualPaths.TrueTest4
+9/12 Test: EqualPaths.TrueTest4
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.TrueTest4"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.TrueTest4" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4254== Memcheck, a memory error detector
+==4254== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4254== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4254== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.TrueTest4
+==4254== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.TrueTest4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.TrueTest4
+[       OK ] EqualPaths.TrueTest4 (13 ms)
+[----------] 1 test from EqualPaths (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (66 ms total)
+[  PASSED  ] 1 test.
+==4254== 
+==4254== HEAP SUMMARY:
+==4254==     in use at exit: 0 bytes in 0 blocks
+==4254==   total heap usage: 279 allocs, 279 frees, 122,170 bytes allocated
+==4254== 
+==4254== All heap blocks were freed -- no leaks are possible
+==4254== 
+==4254== For lists of detected and suppressed errors, rerun with: -s
+==4254== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.36 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.TrueTest4" end time: Mar 29 04:43 UTC
+"EqualPaths.TrueTest4" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/12 Testing: EqualPaths.FalseTest1
+10/12 Test: EqualPaths.FalseTest1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.FalseTest1"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.FalseTest1" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4255== Memcheck, a memory error detector
+==4255== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4255== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4255== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.FalseTest1
+==4255== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.FalseTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.FalseTest1
+[       OK ] EqualPaths.FalseTest1 (15 ms)
+[----------] 1 test from EqualPaths (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (49 ms total)
+[  PASSED  ] 1 test.
+==4255== 
+==4255== HEAP SUMMARY:
+==4255==     in use at exit: 0 bytes in 0 blocks
+==4255==   total heap usage: 279 allocs, 279 frees, 122,177 bytes allocated
+==4255== 
+==4255== All heap blocks were freed -- no leaks are possible
+==4255== 
+==4255== For lists of detected and suppressed errors, rerun with: -s
+==4255== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.FalseTest1" end time: Mar 29 04:43 UTC
+"EqualPaths.FalseTest1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/12 Testing: EqualPaths.FalseTest2
+11/12 Test: EqualPaths.FalseTest2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.FalseTest2"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.FalseTest2" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4256== Memcheck, a memory error detector
+==4256== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4256== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4256== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.FalseTest2
+==4256== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.FalseTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.FalseTest2
+[       OK ] EqualPaths.FalseTest2 (12 ms)
+[----------] 1 test from EqualPaths (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (52 ms total)
+[  PASSED  ] 1 test.
+==4256== 
+==4256== HEAP SUMMARY:
+==4256==     in use at exit: 0 bytes in 0 blocks
+==4256==   total heap usage: 279 allocs, 279 frees, 122,177 bytes allocated
+==4256== 
+==4256== All heap blocks were freed -- no leaks are possible
+==4256== 
+==4256== For lists of detected and suppressed errors, rerun with: -s
+==4256== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.12 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.FalseTest2" end time: Mar 29 04:43 UTC
+"EqualPaths.FalseTest2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+12/12 Testing: EqualPaths.FalseTest3
+12/12 Test: EqualPaths.FalseTest3
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests" "--gtest_filter=EqualPaths.FalseTest3"
+Directory: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests
+"EqualPaths.FalseTest3" start time: Mar 29 04:43 UTC
+Output:
+----------------------------------------------------------
+==4257== Memcheck, a memory error detector
+==4257== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4257== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==4257== Command: /work/hw-jtglover/hw4/hw4_tests/equalpaths_tests/equalpaths_tests --gtest_filter=EqualPaths.FalseTest3
+==4257== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EqualPaths.FalseTest3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EqualPaths
+[ RUN      ] EqualPaths.FalseTest3
+[       OK ] EqualPaths.FalseTest3 (10 ms)
+[----------] 1 test from EqualPaths (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==4257== 
+==4257== HEAP SUMMARY:
+==4257==     in use at exit: 0 bytes in 0 blocks
+==4257==   total heap usage: 279 allocs, 279 frees, 122,177 bytes allocated
+==4257== 
+==4257== All heap blocks were freed -- no leaks are possible
+==4257== 
+==4257== For lists of detected and suppressed errors, rerun with: -s
+==4257== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.04 sec
+----------------------------------------------------------
+Test Passed.
+"EqualPaths.FalseTest3" end time: Mar 29 04:43 UTC
+"EqualPaths.FalseTest3" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Mar 29 04:43 UTC

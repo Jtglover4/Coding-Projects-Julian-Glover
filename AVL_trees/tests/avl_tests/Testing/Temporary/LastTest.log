@@ -1,0 +1,2781 @@
+Start testing: Apr 01 04:48 UTC
+----------------------------------------------------------
+1/23 Testing: AVLBST.ConstructionDestruction
+1/23 Test: AVLBST.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLBST.ConstructionDestruction"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLBST.ConstructionDestruction" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12206== Memcheck, a memory error detector
+==12206== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12206== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12206== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLBST.ConstructionDestruction
+==12206== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLBST.ConstructionDestruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLBST
+[ RUN      ] AVLBST.ConstructionDestruction
+[       OK ] AVLBST.ConstructionDestruction (7 ms)
+[----------] 1 test from AVLBST (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (34 ms total)
+[  PASSED  ] 1 test.
+==12206== 
+==12206== HEAP SUMMARY:
+==12206==     in use at exit: 0 bytes in 0 blocks
+==12206==   total heap usage: 422 allocs, 422 frees, 129,915 bytes allocated
+==12206== 
+==12206== All heap blocks were freed -- no leaks are possible
+==12206== 
+==12206== For lists of detected and suppressed errors, rerun with: -s
+==12206== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.32 sec
+----------------------------------------------------------
+Test Passed.
+"AVLBST.ConstructionDestruction" end time: Apr 01 04:48 UTC
+"AVLBST.ConstructionDestruction" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/23 Testing: AVLInsert.OneNode
+2/23 Test: AVLInsert.OneNode
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.OneNode"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.OneNode" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12207== Memcheck, a memory error detector
+==12207== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12207== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12207== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.OneNode
+==12207== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.OneNode
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.OneNode
+[       OK ] AVLInsert.OneNode (111 ms)
+[----------] 1 test from AVLInsert (120 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (209 ms total)
+[  PASSED  ] 1 test.
+==12207== 
+==12207== HEAP SUMMARY:
+==12207==     in use at exit: 0 bytes in 0 blocks
+==12207==   total heap usage: 424 allocs, 424 frees, 129,992 bytes allocated
+==12207== 
+==12207== All heap blocks were freed -- no leaks are possible
+==12207== 
+==12207== For lists of detected and suppressed errors, rerun with: -s
+==12207== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.28 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.OneNode" end time: Apr 01 04:48 UTC
+"AVLInsert.OneNode" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/23 Testing: AVLInsert.DoubleInsertLeft
+3/23 Test: AVLInsert.DoubleInsertLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertLeft"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.DoubleInsertLeft" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12208== Memcheck, a memory error detector
+==12208== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12208== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12208== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.DoubleInsertLeft
+==12208== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.DoubleInsertLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.DoubleInsertLeft
+[       OK ] AVLInsert.DoubleInsertLeft (39 ms)
+[----------] 1 test from AVLInsert (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 1 test.
+==12208== 
+==12208== HEAP SUMMARY:
+==12208==     in use at exit: 0 bytes in 0 blocks
+==12208==   total heap usage: 426 allocs, 426 frees, 130,063 bytes allocated
+==12208== 
+==12208== All heap blocks were freed -- no leaks are possible
+==12208== 
+==12208== For lists of detected and suppressed errors, rerun with: -s
+==12208== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.DoubleInsertLeft" end time: Apr 01 04:48 UTC
+"AVLInsert.DoubleInsertLeft" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/23 Testing: AVLInsert.DoubleInsertRight
+4/23 Test: AVLInsert.DoubleInsertRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.DoubleInsertRight"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.DoubleInsertRight" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12209== Memcheck, a memory error detector
+==12209== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12209== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12209== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.DoubleInsertRight
+==12209== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.DoubleInsertRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.DoubleInsertRight
+[       OK ] AVLInsert.DoubleInsertRight (43 ms)
+[----------] 1 test from AVLInsert (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 1 test.
+==12209== 
+==12209== HEAP SUMMARY:
+==12209==     in use at exit: 0 bytes in 0 blocks
+==12209==   total heap usage: 426 allocs, 426 frees, 130,070 bytes allocated
+==12209== 
+==12209== All heap blocks were freed -- no leaks are possible
+==12209== 
+==12209== For lists of detected and suppressed errors, rerun with: -s
+==12209== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.DoubleInsertRight" end time: Apr 01 04:48 UTC
+"AVLInsert.DoubleInsertRight" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/23 Testing: AVLInsert.InsertZigZigLeft
+5/23 Test: AVLInsert.InsertZigZigLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigLeft"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.InsertZigZigLeft" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12210== Memcheck, a memory error detector
+==12210== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12210== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12210== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZigLeft
+==12210== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZigLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZigLeft
+[       OK ] AVLInsert.InsertZigZigLeft (44 ms)
+[----------] 1 test from AVLInsert (51 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (73 ms total)
+[  PASSED  ] 1 test.
+==12210== 
+==12210== HEAP SUMMARY:
+==12210==     in use at exit: 0 bytes in 0 blocks
+==12210==   total heap usage: 428 allocs, 428 frees, 130,151 bytes allocated
+==12210== 
+==12210== All heap blocks were freed -- no leaks are possible
+==12210== 
+==12210== For lists of detected and suppressed errors, rerun with: -s
+==12210== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZigLeft" end time: Apr 01 04:48 UTC
+"AVLInsert.InsertZigZigLeft" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/23 Testing: AVLInsert.InsertZigZigRight
+6/23 Test: AVLInsert.InsertZigZigRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZigRight"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.InsertZigZigRight" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12211== Memcheck, a memory error detector
+==12211== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12211== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12211== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZigRight
+==12211== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZigRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZigRight
+[       OK ] AVLInsert.InsertZigZigRight (46 ms)
+[----------] 1 test from AVLInsert (52 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 1 test.
+==12211== 
+==12211== HEAP SUMMARY:
+==12211==     in use at exit: 0 bytes in 0 blocks
+==12211==   total heap usage: 428 allocs, 428 frees, 130,158 bytes allocated
+==12211== 
+==12211== All heap blocks were freed -- no leaks are possible
+==12211== 
+==12211== For lists of detected and suppressed errors, rerun with: -s
+==12211== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.52 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZigRight" end time: Apr 01 04:48 UTC
+"AVLInsert.InsertZigZigRight" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/23 Testing: AVLInsert.InsertZigZagLeft
+7/23 Test: AVLInsert.InsertZigZagLeft
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagLeft"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.InsertZigZagLeft" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12212== Memcheck, a memory error detector
+==12212== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12212== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12212== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZagLeft
+==12212== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZagLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZagLeft
+[       OK ] AVLInsert.InsertZigZagLeft (49 ms)
+[----------] 1 test from AVLInsert (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+==12212== 
+==12212== HEAP SUMMARY:
+==12212==     in use at exit: 0 bytes in 0 blocks
+==12212==   total heap usage: 428 allocs, 428 frees, 130,151 bytes allocated
+==12212== 
+==12212== All heap blocks were freed -- no leaks are possible
+==12212== 
+==12212== For lists of detected and suppressed errors, rerun with: -s
+==12212== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.68 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZagLeft" end time: Apr 01 04:48 UTC
+"AVLInsert.InsertZigZagLeft" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/23 Testing: AVLInsert.InsertZigZagRight
+8/23 Test: AVLInsert.InsertZigZagRight
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.InsertZigZagRight"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.InsertZigZagRight" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12213== Memcheck, a memory error detector
+==12213== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12213== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12213== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.InsertZigZagRight
+==12213== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.InsertZigZagRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.InsertZigZagRight
+[       OK ] AVLInsert.InsertZigZagRight (47 ms)
+[----------] 1 test from AVLInsert (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (76 ms total)
+[  PASSED  ] 1 test.
+==12213== 
+==12213== HEAP SUMMARY:
+==12213==     in use at exit: 0 bytes in 0 blocks
+==12213==   total heap usage: 428 allocs, 428 frees, 130,158 bytes allocated
+==12213== 
+==12213== All heap blocks were freed -- no leaks are possible
+==12213== 
+==12213== For lists of detected and suppressed errors, rerun with: -s
+==12213== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.75 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.InsertZigZagRight" end time: Apr 01 04:48 UTC
+"AVLInsert.InsertZigZagRight" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/23 Testing: AVLInsert.7Elements
+9/23 Test: AVLInsert.7Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.7Elements"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.7Elements" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12214== Memcheck, a memory error detector
+==12214== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12214== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12214== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.7Elements
+==12214== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.7Elements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.7Elements
+[       OK ] AVLInsert.7Elements (75 ms)
+[----------] 1 test from AVLInsert (84 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (112 ms total)
+[  PASSED  ] 1 test.
+==12214== 
+==12214== HEAP SUMMARY:
+==12214==     in use at exit: 0 bytes in 0 blocks
+==12214==   total heap usage: 436 allocs, 436 frees, 130,454 bytes allocated
+==12214== 
+==12214== All heap blocks were freed -- no leaks are possible
+==12214== 
+==12214== For lists of detected and suppressed errors, rerun with: -s
+==12214== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.71 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.7Elements" end time: Apr 01 04:48 UTC
+"AVLInsert.7Elements" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/23 Testing: AVLClear.Clear
+10/23 Test: AVLClear.Clear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLClear.Clear"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLClear.Clear" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12215== Memcheck, a memory error detector
+==12215== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12215== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12215== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLClear.Clear
+==12215== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLClear.Clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLClear
+[ RUN      ] AVLClear.Clear
+[       OK ] AVLClear.Clear (23 ms)
+[----------] 1 test from AVLClear (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (52 ms total)
+[  PASSED  ] 1 test.
+==12215== 
+==12215== HEAP SUMMARY:
+==12215==     in use at exit: 0 bytes in 0 blocks
+==12215==   total heap usage: 399 allocs, 399 frees, 129,126 bytes allocated
+==12215== 
+==12215== All heap blocks were freed -- no leaks are possible
+==12215== 
+==12215== For lists of detected and suppressed errors, rerun with: -s
+==12215== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.53 sec
+----------------------------------------------------------
+Test Passed.
+"AVLClear.Clear" end time: Apr 01 04:48 UTC
+"AVLClear.Clear" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/23 Testing: AVLInsert.Duplicates
+11/23 Test: AVLInsert.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Duplicates"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.Duplicates" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12216== Memcheck, a memory error detector
+==12216== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12216== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12216== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.Duplicates
+==12216== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.Duplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Duplicates
+[       OK ] AVLInsert.Duplicates (59 ms)
+[----------] 1 test from AVLInsert (66 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==12216== 
+==12216== HEAP SUMMARY:
+==12216==     in use at exit: 0 bytes in 0 blocks
+==12216==   total heap usage: 430 allocs, 430 frees, 130,197 bytes allocated
+==12216== 
+==12216== All heap blocks were freed -- no leaks are possible
+==12216== 
+==12216== For lists of detected and suppressed errors, rerun with: -s
+==12216== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Duplicates" end time: Apr 01 04:48 UTC
+"AVLInsert.Duplicates" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/23 Testing: AVLInsert.Random50x30ele
+12/23 Test: AVLInsert.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random50x30ele"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.Random50x30ele" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12217== Memcheck, a memory error detector
+==12217== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12217== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12217== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.Random50x30ele
+==12217== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.Random50x30ele
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Random50x30ele
+[       OK ] AVLInsert.Random50x30ele (246 ms)
+[----------] 1 test from AVLInsert (252 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (279 ms total)
+[  PASSED  ] 1 test.
+==12217== 
+==12217== HEAP SUMMARY:
+==12217==     in use at exit: 0 bytes in 0 blocks
+==12217==   total heap usage: 3,573 allocs, 3,573 frees, 272,273 bytes allocated
+==12217== 
+==12217== All heap blocks were freed -- no leaks are possible
+==12217== 
+==12217== For lists of detected and suppressed errors, rerun with: -s
+==12217== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Random50x30ele" end time: Apr 01 04:48 UTC
+"AVLInsert.Random50x30ele" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/23 Testing: AVLInsert.Random3x5000ele
+13/23 Test: AVLInsert.Random3x5000ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLInsert.Random3x5000ele"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLInsert.Random3x5000ele" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12218== Memcheck, a memory error detector
+==12218== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12218== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12218== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLInsert.Random3x5000ele
+==12218== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLInsert.Random3x5000ele
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLInsert
+[ RUN      ] AVLInsert.Random3x5000ele
+[       OK ] AVLInsert.Random3x5000ele (1542 ms)
+[----------] 1 test from AVLInsert (1550 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1590 ms total)
+[  PASSED  ] 1 test.
+==12218== 
+==12218== HEAP SUMMARY:
+==12218==     in use at exit: 0 bytes in 0 blocks
+==12218==   total heap usage: 30,432 allocs, 30,432 frees, 1,510,144 bytes allocated
+==12218== 
+==12218== All heap blocks were freed -- no leaks are possible
+==12218== 
+==12218== For lists of detected and suppressed errors, rerun with: -s
+==12218== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.95 sec
+----------------------------------------------------------
+Test Passed.
+"AVLInsert.Random3x5000ele" end time: Apr 01 04:48 UTC
+"AVLInsert.Random3x5000ele" time elapsed: 00:00:02
+----------------------------------------------------------
+
+14/23 Testing: AVLRemove.EmptyTree
+14/23 Test: AVLRemove.EmptyTree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.EmptyTree"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.EmptyTree" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12219== Memcheck, a memory error detector
+==12219== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12219== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12219== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.EmptyTree
+==12219== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.EmptyTree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.EmptyTree
+<empty tree>
+
+[       OK ] AVLRemove.EmptyTree (24 ms)
+[----------] 1 test from AVLRemove (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (63 ms total)
+[  PASSED  ] 1 test.
+==12219== 
+==12219== HEAP SUMMARY:
+==12219==     in use at exit: 0 bytes in 0 blocks
+==12219==   total heap usage: 423 allocs, 423 frees, 129,873 bytes allocated
+==12219== 
+==12219== All heap blocks were freed -- no leaks are possible
+==12219== 
+==12219== For lists of detected and suppressed errors, rerun with: -s
+==12219== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.EmptyTree" end time: Apr 01 04:48 UTC
+"AVLRemove.EmptyTree" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/23 Testing: AVLRemove.NodeMismatch
+15/23 Test: AVLRemove.NodeMismatch
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.NodeMismatch"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.NodeMismatch" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12220== Memcheck, a memory error detector
+==12220== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12220== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12220== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.NodeMismatch
+==12220== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.NodeMismatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.NodeMismatch
+   [01]
+      └┐      
+      [02]
+
+Tree Placeholders:------------------
+[01] -> (blah, blah)
+[02] -> (bluh, <error: lookup failed>)
+
+[       OK ] AVLRemove.NodeMismatch (102 ms)
+[----------] 1 test from AVLRemove (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (130 ms total)
+[  PASSED  ] 1 test.
+==12220== 
+==12220== HEAP SUMMARY:
+==12220==     in use at exit: 0 bytes in 0 blocks
+==12220==   total heap usage: 434 allocs, 434 frees, 130,454 bytes allocated
+==12220== 
+==12220== All heap blocks were freed -- no leaks are possible
+==12220== 
+==12220== For lists of detected and suppressed errors, rerun with: -s
+==12220== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.NodeMismatch" end time: Apr 01 04:48 UTC
+"AVLRemove.NodeMismatch" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/23 Testing: AVLRemove.SingleRemove
+16/23 Test: AVLRemove.SingleRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.SingleRemove"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.SingleRemove" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12221== Memcheck, a memory error detector
+==12221== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12221== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12221== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.SingleRemove
+==12221== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.SingleRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.SingleRemove
+[01]
+
+Tree Placeholders:------------------
+[01] -> (1, 1)
+
+[       OK ] AVLRemove.SingleRemove (153 ms)
+[----------] 1 test from AVLRemove (169 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (210 ms total)
+[  PASSED  ] 1 test.
+==12221== 
+==12221== HEAP SUMMARY:
+==12221==     in use at exit: 0 bytes in 0 blocks
+==12221==   total heap usage: 427 allocs, 427 frees, 129,987 bytes allocated
+==12221== 
+==12221== All heap blocks were freed -- no leaks are possible
+==12221== 
+==12221== For lists of detected and suppressed errors, rerun with: -s
+==12221== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.94 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.SingleRemove" end time: Apr 01 04:48 UTC
+"AVLRemove.SingleRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/23 Testing: AVLRemove.RightChildRemove
+17/23 Test: AVLRemove.RightChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.RightChildRemove"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.RightChildRemove" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12222== Memcheck, a memory error detector
+==12222== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12222== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12222== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.RightChildRemove
+==12222== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.RightChildRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.RightChildRemove
+         [03]
+     ┌───┘  └───┐            
+   [02]        [04]
+  ┌┘                      
+[01]                  
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, <error: lookup failed>)
+[03] -> (3, 1)
+[04] -> (4, <error: lookup failed>)
+
+[       OK ] AVLRemove.RightChildRemove (120 ms)
+[----------] 1 test from AVLRemove (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (147 ms total)
+[  PASSED  ] 1 test.
+==12222== 
+==12222== HEAP SUMMARY:
+==12222==     in use at exit: 0 bytes in 0 blocks
+==12222==   total heap usage: 440 allocs, 440 frees, 130,567 bytes allocated
+==12222== 
+==12222== All heap blocks were freed -- no leaks are possible
+==12222== 
+==12222== For lists of detected and suppressed errors, rerun with: -s
+==12222== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.51 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.RightChildRemove" end time: Apr 01 04:48 UTC
+"AVLRemove.RightChildRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+18/23 Testing: AVLRemove.LeftChildRemove
+18/23 Test: AVLRemove.LeftChildRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.LeftChildRemove"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.LeftChildRemove" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12223== Memcheck, a memory error detector
+==12223== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12223== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12223== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.LeftChildRemove
+==12223== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.LeftChildRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.LeftChildRemove
+         [02]
+     ┌───┘  └───┐            
+   [01]        [03]
+                  └┐      
+                  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 1)
+[03] -> (3, <error: lookup failed>)
+[04] -> (4, <error: lookup failed>)
+
+[       OK ] AVLRemove.LeftChildRemove (127 ms)
+[----------] 1 test from AVLRemove (134 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (160 ms total)
+[  PASSED  ] 1 test.
+==12223== 
+==12223== HEAP SUMMARY:
+==12223==     in use at exit: 0 bytes in 0 blocks
+==12223==   total heap usage: 440 allocs, 440 frees, 130,560 bytes allocated
+==12223== 
+==12223== All heap blocks were freed -- no leaks are possible
+==12223== 
+==12223== For lists of detected and suppressed errors, rerun with: -s
+==12223== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.49 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.LeftChildRemove" end time: Apr 01 04:48 UTC
+"AVLRemove.LeftChildRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/23 Testing: AVLRemove.TwoChildrenRemove_3Node
+19/23 Test: AVLRemove.TwoChildrenRemove_3Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_3Node"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.TwoChildrenRemove_3Node" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12224== Memcheck, a memory error detector
+==12224== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12224== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12224== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.TwoChildrenRemove_3Node
+==12224== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.TwoChildrenRemove_3Node
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.TwoChildrenRemove_3Node
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 1)
+[03] -> (3, <error: lookup failed>)
+
+[       OK ] AVLRemove.TwoChildrenRemove_3Node (128 ms)
+[----------] 1 test from AVLRemove (135 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (160 ms total)
+[  PASSED  ] 1 test.
+==12224== 
+==12224== HEAP SUMMARY:
+==12224==     in use at exit: 0 bytes in 0 blocks
+==12224==   total heap usage: 435 allocs, 435 frees, 130,459 bytes allocated
+==12224== 
+==12224== All heap blocks were freed -- no leaks are possible
+==12224== 
+==12224== For lists of detected and suppressed errors, rerun with: -s
+==12224== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.44 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.TwoChildrenRemove_3Node" end time: Apr 01 04:48 UTC
+"AVLRemove.TwoChildrenRemove_3Node" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/23 Testing: AVLRemove.TwoChildrenRemove_4Node
+20/23 Test: AVLRemove.TwoChildrenRemove_4Node
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.TwoChildrenRemove_4Node"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.TwoChildrenRemove_4Node" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12225== Memcheck, a memory error detector
+==12225== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12225== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12225== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.TwoChildrenRemove_4Node
+==12225== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.TwoChildrenRemove_4Node
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.TwoChildrenRemove_4Node
+         [03]
+     ┌───┘  └───┐            
+   [01]        [04]
+      └┐                  
+      [02]            
+
+Tree Placeholders:------------------
+[01] -> (2, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, 1)
+[04] -> (6, <error: lookup failed>)
+
+[       OK ] AVLRemove.TwoChildrenRemove_4Node (316 ms)
+[----------] 1 test from AVLRemove (325 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (361 ms total)
+[  PASSED  ] 1 test.
+==12225== 
+==12225== HEAP SUMMARY:
+==12225==     in use at exit: 0 bytes in 0 blocks
+==12225==   total heap usage: 440 allocs, 440 frees, 130,691 bytes allocated
+==12225== 
+==12225== All heap blocks were freed -- no leaks are possible
+==12225== 
+==12225== For lists of detected and suppressed errors, rerun with: -s
+==12225== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.98 sec
+----------------------------------------------------------
+Test Passed.
+"AVLRemove.TwoChildrenRemove_4Node" end time: Apr 01 04:48 UTC
+"AVLRemove.TwoChildrenRemove_4Node" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/23 Testing: AVLRemove.Random50x30ele
+21/23 Test: AVLRemove.Random50x30ele
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLRemove.Random50x30ele"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLRemove.Random50x30ele" start time: Apr 01 04:48 UTC
+Output:
+----------------------------------------------------------
+==12226== Memcheck, a memory error detector
+==12226== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12226== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12226== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLRemove.Random50x30ele
+==12226== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLRemove.Random50x30ele
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLRemove
+[ RUN      ] AVLRemove.Random50x30ele
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [12]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [22]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [17]                                            [27]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [15]                    [20]                    [24]                    [29]
+                             ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]        [11]        [13]        [16]        [18]        [21]        [23]        [25]        [28]        [30]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [14]                    [19]                                [26]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, <error: lookup failed>)
+[12] -> (-53, -53)
+[13] -> (-22, <error: lookup failed>)
+[14] -> (-20, <error: lookup failed>)
+[15] -> (2, <error: lookup failed>)
+[16] -> (16, <error: lookup failed>)
+[17] -> (21, <error: lookup failed>)
+[18] -> (28, <error: lookup failed>)
+[19] -> (41, <error: lookup failed>)
+[20] -> (45, <error: lookup failed>)
+[21] -> (50, <error: lookup failed>)
+[22] -> (56, <error: lookup failed>)
+[23] -> (71, <error: lookup failed>)
+[24] -> (75, <error: lookup failed>)
+[25] -> (105, <error: lookup failed>)
+[26] -> (106, <error: lookup failed>)
+[27] -> (114, <error: lookup failed>)
+[28] -> (123, <error: lookup failed>)
+[29] -> (144, <error: lookup failed>)
+[30] -> (147, <error: lookup failed>)
+
+                                                                                             [11]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [21]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [16]                                            [26]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [14]                    [19]                    [23]                    [28]
+                             ┌───┘                   ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]                    [12]        [15]        [17]        [20]        [22]        [24]        [27]        [29]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [13]                    [18]                                [25]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, -61)
+[12] -> (-22, <error: lookup failed>)
+[13] -> (-20, <error: lookup failed>)
+[14] -> (2, <error: lookup failed>)
+[15] -> (16, <error: lookup failed>)
+[16] -> (21, <error: lookup failed>)
+[17] -> (28, <error: lookup failed>)
+[18] -> (41, <error: lookup failed>)
+[19] -> (45, <error: lookup failed>)
+[20] -> (50, <error: lookup failed>)
+[21] -> (56, <error: lookup failed>)
+[22] -> (71, <error: lookup failed>)
+[23] -> (75, <error: lookup failed>)
+[24] -> (105, <error: lookup failed>)
+[25] -> (106, <error: lookup failed>)
+[26] -> (114, <error: lookup failed>)
+[27] -> (123, <error: lookup failed>)
+[28] -> (144, <error: lookup failed>)
+[29] -> (147, <error: lookup failed>)
+
+                                                                                             [11]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [21]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [16]                                            [26]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [14]                    [19]                    [23]                    [28]
+                             ┌───┘                   ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]                    [12]        [15]        [17]        [20]        [22]        [24]        [27]        [29]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [13]                    [18]                                [25]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, -61)
+[12] -> (-22, <error: lookup failed>)
+[13] -> (-20, <error: lookup failed>)
+[14] -> (2, <error: lookup failed>)
+[15] -> (16, <error: lookup failed>)
+[16] -> (21, <error: lookup failed>)
+[17] -> (28, <error: lookup failed>)
+[18] -> (41, <error: lookup failed>)
+[19] -> (45, <error: lookup failed>)
+[20] -> (50, <error: lookup failed>)
+[21] -> (56, <error: lookup failed>)
+[22] -> (71, <error: lookup failed>)
+[23] -> (75, <error: lookup failed>)
+[24] -> (105, <error: lookup failed>)
+[25] -> (106, <error: lookup failed>)
+[26] -> (114, <error: lookup failed>)
+[27] -> (123, <error: lookup failed>)
+[28] -> (144, <error: lookup failed>)
+[29] -> (147, <error: lookup failed>)
+
+                                                                                             [11]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [05]                                                                                            [21]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [02]                                            [08]                                            [16]                                            [26]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [01]                    [04]                    [07]                    [10]                    [14]                    [19]                    [23]                    [28]
+                             ┌───┘                   ┌───┘                   ┌───┘                   ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+                           [03]                    [06]                    [09]                    [12]        [15]        [17]        [20]        [22]        [24]        [27]        [29]
+                                                                                                      └┐                      └┐                                  └┐                              
+                                                                                                      [13]                    [18]                                [25]                        
+
+Tree Placeholders:------------------
+[01] -> (-147, <error: lookup failed>)
+[02] -> (-144, <error: lookup failed>)
+[03] -> (-142, <error: lookup failed>)
+[04] -> (-128, <error: lookup failed>)
+[05] -> (-117, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-77, <error: lookup failed>)
+[09] -> (-73, <error: lookup failed>)
+[10] -> (-64, <error: lookup failed>)
+[11] -> (-61, -61)
+[12] -> (-22, <error: lookup failed>)
+[13] -> (-20, <error: lookup failed>)
+[14] -> (2, <error: lookup failed>)
+[15] -> (16, <error: lookup failed>)
+[16] -> (21, <error: lookup failed>)
+[17] -> (28, <error: lookup failed>)
+[18] -> (41, <error: lookup failed>)
+[19] -> (45, <error: lookup failed>)
+[20] -> (50, <error: lookup failed>)
+[21] -> (56, <error: lookup failed>)
+[22] -> (71, <error: lookup failed>)
+[23] -> (75, <error: lookup failed>)
+[24] -> (105, <error: lookup failed>)
+[25] -> (106, <error: lookup failed>)
+[26] -> (114, <error: lookup failed>)
+[27] -> (123, <error: lookup failed>)
+[28] -> (144, <error: lookup failed>)
+[29] -> (147, <error: lookup failed>)
+
+Balance error!
+Tree was: 
+                                                                                             [26]
+                                               ┌─────────────────────────────────────────────┘  └─────────────────────────────────────────────┐                                                                                                
+                                             [15]                                                                                            [35]
+                       ┌─────────────────────┘  └─────────────────────┐                                                ┌─────────────────────┘  └─────────────────────┐                                                
+                     [08]                                            [21]                                            [31]                                            [42]
+           ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        ┌─────────┘  └─────────┐                        
+         [04]                    [12]                    [17]                    [24]                    [29]                    [33]                    [39]                    [46]
+     ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            ┌───┘  └───┐            
+   [02]        [06]        [10]        [14]        [16]        [19]        [23]        [25]        [27]        [30]        [32]        [34]        [37]        [40]        [44]        [48]
+  ┌┘  └┐      ┌┘  └┐      ┌┘  └┐      ┌┘                      ┌┘  └┐      ┌┘                          └┐                                          ┌┘  └┐          └┐      ┌┘  └┐      ┌┘  └┐      
+[01]  [03]  [05]  [07]  [09]  [11]  [13]                    [18]  [20]  [22]                          [28]                                      [36]  [38]        [41]  [43]  [45]  [47]  [49]
+
+Tree Placeholders:------------------
+[01] -> (-144, <error: lookup failed>)
+[02] -> (-128, <error: lookup failed>)
+[03] -> (-121, <error: lookup failed>)
+[04] -> (-117, <error: lookup failed>)
+[05] -> (-101, <error: lookup failed>)
+[06] -> (-96, <error: lookup failed>)
+[07] -> (-89, <error: lookup failed>)
+[08] -> (-86, <error: lookup failed>)
+[09] -> (-82, <error: lookup failed>)
+[10] -> (-81, <error: lookup failed>)
+[11] -> (-79, <error: lookup failed>)
+[12] -> (-77, <error: lookup failed>)
+[13] -> (-72, <error: lookup failed>)
+[14] -> (-64, <error: lookup failed>)
+[15] -> (-61, <error: lookup failed>)
+[16] -> (-58, <error: lookup failed>)
+[17] -> (-51, <error: lookup failed>)
+[18] -> (-46, <error: lookup failed>)
+[19] -> (-24, <error: lookup failed>)
+[20] -> (-22, <error: lookup failed>)
+[21] -> (-20, <error: lookup failed>)
+[22] -> (-8, <error: lookup failed>)
+[23] -> (-2, <error: lookup failed>)
+[24] -> (2, <error: lookup failed>)
+[25] -> (16, <error: lookup failed>)
+[26] -> (21, 21)
+[27] -> (28, <error: lookup failed>)
+[28] -> (41, <error: lookup failed>)
+[29] -> (45, <error: lookup failed>)
+[30] -> (50, <error: lookup failed>)
+[31] -> (56, <error: lookup failed>)
+[32] -> (70, <error: lookup failed>)
+[33] -> (71, <error: lookup failed>)
+[34] -> (73, <error: lookup failed>)
+[35] -> (75, <error: lookup failed>)
+[36] -> (79, <error: lookup failed>)
+[37] -> (81, <error: lookup failed>)
+[38] -> (83, <error: lookup failed>)
+[39] -> (99, <error: lookup failed>)
+[40] -> (105, <error: lookup failed>)
+[41] -> (106, <error: lookup failed>)
+[42] -> (114, <error: lookup failed>)
+[43] -> (123, <error: lookup failed>)
+[44] -> (133, <error: lookup failed>)
+[45] -> (134, <error: lookup failed>)
+[46] -> (144, <error: lookup failed>)
+[47] -> (146, <error: lookup failed>)
+[48] -> (147, <error: lookup failed>)
+[49] -> (149, <error: lookup failed>)
+
+/work/hw-jtglover/hw4/hw4_tests/avl_tests/test_remove.cpp:126: Failure
+Value of: verifyAVL(testTree, randomData)
+  Actual: false (AVL balance error: subtree rooted at -64 is out of balance!  Left child has height 2, and right child has height 0.)
+Expected: true
+[  FAILED  ] AVLRemove.Random50x30ele (395 ms)
+[----------] 1 test from AVLRemove (402 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (429 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AVLRemove.Random50x30ele
+
+ 1 FAILED TEST
+==12226== 
+==12226== HEAP SUMMARY:
+==12226==     in use at exit: 0 bytes in 0 blocks
+==12226==   total heap usage: 2,851 allocs, 2,851 frees, 275,091 bytes allocated
+==12226== 
+==12226== All heap blocks were freed -- no leaks are possible
+==12226== 
+==12226== For lists of detected and suppressed errors, rerun with: -s
+==12226== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.89 sec
+----------------------------------------------------------
+Test Failed.
+"AVLRemove.Random50x30ele" end time: Apr 01 04:49 UTC
+"AVLRemove.Random50x30ele" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/23 Testing: AVLStress.InsertRemove
+22/23 Test: AVLStress.InsertRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.InsertRemove"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLStress.InsertRemove" start time: Apr 01 04:49 UTC
+Output:
+----------------------------------------------------------
+==12227== Memcheck, a memory error detector
+==12227== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12227== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12227== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLStress.InsertRemove
+==12227== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLStress.InsertRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLStress
+[ RUN      ] AVLStress.InsertRemove
+[01]
+
+Tree Placeholders:------------------
+[01] -> (5, five)
+
+[01]
+
+Tree Placeholders:------------------
+[01] -> (5, five)
+
+   [02]
+  ┌┘          
+[01]      
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (5, five)
+
+[01]
+
+Tree Placeholders:------------------
+[01] -> (3, three)
+
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (5, five)
+[03] -> (7, <error: lookup failed>)
+
+   [01]
+      └┐      
+      [02]
+
+Tree Placeholders:------------------
+[01] -> (3, three)
+[02] -> (7, <error: lookup failed>)
+
+   [01]
+      └┐      
+      [02]
+
+Tree Placeholders:------------------
+[01] -> (3, three)
+[02] -> (7, <error: lookup failed>)
+
+         [03]
+     ┌───┘  └───┐            
+   [01]        [04]
+      └┐                  
+      [02]            
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, five)
+[04] -> (7, <error: lookup failed>)
+
+         [03]
+     ┌───┘  └───┐            
+   [01]        [05]
+      └┐      ┌┘          
+      [02]  [04]      
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, five)
+[04] -> (6, <error: lookup failed>)
+[05] -> (7, <error: lookup failed>)
+
+         [03]
+     ┌───┘  └───┐            
+   [01]        [05]
+      └┐      ┌┘          
+      [02]  [04]      
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, five)
+[04] -> (6, <error: lookup failed>)
+[05] -> (7, <error: lookup failed>)
+
+         [03]
+     ┌───┘  └───┐            
+   [01]        [05]
+      └┐      ┌┘  └┐      
+      [02]  [04]  [06]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, five)
+[04] -> (6, <error: lookup failed>)
+[05] -> (7, <error: lookup failed>)
+[06] -> (9, <error: lookup failed>)
+
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, four)
+[03] -> (6, <error: lookup failed>)
+[04] -> (7, <error: lookup failed>)
+[05] -> (9, <error: lookup failed>)
+
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, four)
+[03] -> (6, <error: lookup failed>)
+[04] -> (7, <error: lookup failed>)
+[05] -> (9, <error: lookup failed>)
+
+                     [03]
+           ┌─────────┘  └─────────┐                        
+         [01]                    [05]
+            └───┐            ┌───┘  └───┐            
+               [02]        [04]        [06]
+                                          └┐      
+                                          [07]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, <error: lookup failed>)
+[03] -> (5, five)
+[04] -> (6, <error: lookup failed>)
+[05] -> (7, <error: lookup failed>)
+[06] -> (9, <error: lookup failed>)
+[07] -> (10, <error: lookup failed>)
+
+Balance error!
+Tree was: 
+                     [02]
+           ┌─────────┘  └─────────┐                        
+         [01]                    [04]
+                             ┌───┘  └───┐            
+                           [03]        [05]
+                                          └┐      
+                                          [06]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (4, four)
+[03] -> (6, <error: lookup failed>)
+[04] -> (7, <error: lookup failed>)
+[05] -> (9, <error: lookup failed>)
+[06] -> (10, <error: lookup failed>)
+
+/work/hw-jtglover/hw4/hw4_tests/avl_tests/test_remove.cpp:263: Failure
+Value of: verifyAVL(b, {item3.first, item7.first, item4.first, item6.first, item9.first, item10.first})
+  Actual: false (AVL balance error: subtree rooted at 4 is out of balance!  Left child has height 1, and right child has height 3.)
+Expected: true
+[  FAILED  ] AVLStress.InsertRemove (214 ms)
+[----------] 1 test from AVLStress (220 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (241 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AVLStress.InsertRemove
+
+ 1 FAILED TEST
+==12227== 
+==12227== HEAP SUMMARY:
+==12227==     in use at exit: 0 bytes in 0 blocks
+==12227==   total heap usage: 722 allocs, 722 frees, 154,169 bytes allocated
+==12227== 
+==12227== All heap blocks were freed -- no leaks are possible
+==12227== 
+==12227== For lists of detected and suppressed errors, rerun with: -s
+==12227== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.33 sec
+----------------------------------------------------------
+Test Failed.
+"AVLStress.InsertRemove" end time: Apr 01 04:49 UTC
+"AVLStress.InsertRemove" time elapsed: 00:00:02
+----------------------------------------------------------
+
+23/23 Testing: AVLStress.Remove
+23/23 Test: AVLStress.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests" "--gtest_filter=AVLStress.Remove"
+Directory: /work/hw-jtglover/hw4/hw4_tests/avl_tests
+"AVLStress.Remove" start time: Apr 01 04:49 UTC
+Output:
+----------------------------------------------------------
+==12228== Memcheck, a memory error detector
+==12228== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12228== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==12228== Command: /work/hw-jtglover/hw4/hw4_tests/avl_tests/avl_tests --gtest_filter=AVLStress.Remove
+==12228== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AVLStress.Remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AVLStress
+[ RUN      ] AVLStress.Remove
+Before any removals, tree is: 
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 8)
+[03] -> (3, <error: lookup failed>)
+[04] -> (10, <error: lookup failed>)
+[05] -> (15, <error: lookup failed>)
+
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 8)
+[03] -> (3, <error: lookup failed>)
+[04] -> (10, <error: lookup failed>)
+[05] -> (15, <error: lookup failed>)
+
+After removing -1 (which doesn't exist), tree is: 
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 8)
+[03] -> (3, <error: lookup failed>)
+[04] -> (10, <error: lookup failed>)
+[05] -> (15, <error: lookup failed>)
+
+         [02]
+     ┌───┘  └───┐            
+   [01]        [04]
+              ┌┘  └┐      
+            [03]  [05]
+
+Tree Placeholders:------------------
+[01] -> (1, <error: lookup failed>)
+[02] -> (2, 8)
+[03] -> (3, <error: lookup failed>)
+[04] -> (10, <error: lookup failed>)
+[05] -> (15, <error: lookup failed>)
+
+/work/hw-jtglover/hw4/hw4_tests/avl_tests/test_remove.cpp:411: Failure
+Expected equality of these values:
+  10
+  testTree.root_->item_.first
+    Which is: 1
+Balance error!
+Tree was: 
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+/work/hw-jtglover/hw4/hw4_tests/avl_tests/test_remove.cpp:412: Failure
+Value of: verifyAVL(testTree, std::set<int>({1, 3, 10, 15}))
+  Actual: false (AVL balance error: subtree rooted at 1 is out of balance!  Left child has height 0, and right child has height 2.)
+Expected: true
+After removing 2 (the root), tree is: 
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+Balance error!
+Tree was: 
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+/work/hw-jtglover/hw4/hw4_tests/avl_tests/test_remove.cpp:420: Failure
+Value of: verifyAVL(testTree, std::set<int>({1, 3, 15}))
+  Actual: false (AVL balance error: subtree rooted at 1 is out of balance!  Left child has height 0, and right child has height 2.)
+Expected: true
+After removing 10, tree is: 
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+         [01]
+            └───┐            
+               [03]
+              ┌┘  └┐      
+            [02]  [04]
+
+Tree Placeholders:------------------
+[01] -> (1, -50)
+[02] -> (3, <error: lookup failed>)
+[03] -> (10, <error: lookup failed>)
+[04] -> (15, <error: lookup failed>)
+
+After removing 1, tree is: 
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+After removing 3, tree is: 
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+After removing 15 (the last element), tree is: 
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+After removing 15 (which doesn't exist), tree is: 
+   [02]
+  ┌┘  └┐      
+[01]  [03]
+
+Tree Placeholders:------------------
+[01] -> (3, <error: lookup failed>)
+[02] -> (10, 0)
+[03] -> (15, <error: lookup failed>)
+
+[  FAILED  ] AVLStress.Remove (177 ms)
+[----------] 1 test from AVLStress (185 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (207 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AVLStress.Remove
+
+ 1 FAILED TEST
+==12228== 
+==12228== HEAP SUMMARY:
+==12228==     in use at exit: 0 bytes in 0 blocks
+==12228==   total heap usage: 770 allocs, 770 frees, 171,551 bytes allocated
+==12228== 
+==12228== All heap blocks were freed -- no leaks are possible
+==12228== 
+==12228== For lists of detected and suppressed errors, rerun with: -s
+==12228== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.08 sec
+----------------------------------------------------------
+Test Failed.
+"AVLStress.Remove" end time: Apr 01 04:49 UTC
+"AVLStress.Remove" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Apr 01 04:49 UTC
