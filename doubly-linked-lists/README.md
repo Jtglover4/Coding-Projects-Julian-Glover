@@ -17,6 +17,7 @@ At the top of your workspace you will see tabs for each open file. Click the x o
 Select **Tools->Guide->Play** to view the Guide for this project.
 ![playGuide](https://global.codio.com/platform/readme.resources/playGuide.png)
 
+
 Click on the **Open Guides Editor** icon to edit the Guide.
 ![guideEdit](https://global.codio.com/platform/readme.resources/guideEdit.png)
 
