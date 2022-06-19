@@ -7,11 +7,17 @@ public:
         for(int i = 0; i < s.size(); i++){
             
             if(help.empty()){
+
                 help.push(s[i]);
+
             }else if((help.top() == '(' && s[i] == ')') || (help.top() == '{' && s[i] == '}' ) || (help.top() == '[' && s[i] == ']')){
+
                 help.pop();
+
             }else{
+
                 help.push(s[i]);
+                
             }
             
         }
@@ -21,6 +27,6 @@ public:
         }else{
             return false;
         }
-        
+
     }
 };
