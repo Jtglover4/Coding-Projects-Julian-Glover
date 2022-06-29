@@ -39,7 +39,7 @@ public:
             
         }
         
-        if(s > 0){
+        if(s){
             
             current -> next = new ListNode(s);
             
