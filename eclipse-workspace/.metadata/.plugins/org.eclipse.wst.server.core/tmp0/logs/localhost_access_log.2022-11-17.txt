@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/Nov/2022:20:59:38 -0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Nov/2022:20:59:39 -0800] "GET /Lab11/myFile.html HTTP/1.1" 200 1962
+0:0:0:0:0:0:0:1 - - [17/Nov/2022:20:59:39 -0800] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/Nov/2022:21:21:48 -0800] "GET /Lab11/thing.html HTTP/1.1" 200 1962
+0:0:0:0:0:0:0:1 - - [17/Nov/2022:21:22:54 -0800] "GET /Lab11/Servlet?fname=Julian&lname=Glover&grade=3&bdaymonth=2002-03&satisfcation=6&major=Business+Administration&yes=yes&email=jtglover%40usc.edu&comments=%09%09%09Comments%2FConcerns%3A%0D%0A%09%09%09hjshjhh HTTP/1.1" 200 240

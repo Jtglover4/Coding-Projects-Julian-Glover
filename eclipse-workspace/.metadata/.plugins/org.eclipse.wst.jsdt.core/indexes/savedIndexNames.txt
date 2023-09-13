@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+/Users/JulianGlover/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3744023195.index
+3927879410.index
+1212954190.index
+3783772998.index
+443616008.index
+3268148254.index
+2238786472.index
+2810881075.index
+3824960605.index
