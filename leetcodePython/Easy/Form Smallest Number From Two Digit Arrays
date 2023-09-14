@@ -1,0 +1,12 @@
+class Solution:
+    def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
+        nums1.sort()
+        nums2.sort()
+
+        for x in range(len(nums1)):
+            for y in range(len(nums2)):
+                if(nums1[x] == nums2[y]):
+                    return nums1[x]
+       
+        return (10*min(nums1[0], nums2[0]) + max(nums1[0], nums2[0]))
+       
