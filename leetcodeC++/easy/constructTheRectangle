@@ -4,11 +4,10 @@ public:
         
         int x =0;
         int y = 0;
-        int minn = INT_MAX;
 
-        for(int i = 1; i <= area/2; i++){
+        for(int i = 1; i <= sqrt(area); i++){
             
-            if(area % i == 0 && ((abs(area/i - i)) < minn) && (area/i >= i)){
+            if(area % i == 0 && (area/i >= i)){
 
                 x = area/i;
                 y = i;
