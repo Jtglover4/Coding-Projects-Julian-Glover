@@ -1,0 +1,31 @@
+class Solution {
+public:
+    vector<int> constructRectangle(int area) {
+        
+        int x =0;
+        int y = 0;
+        int minn = INT_MAX;
+
+        for(int i = 1; i <= area/2; i++){
+            
+            if(area % i == 0 && ((abs(area/i - i)) < minn) && (area/i >= i)){
+
+                x = area/i;
+                y = i;
+
+            }
+
+        }
+        vector<int> v;
+        if(area == 1){
+            v.push_back(1);
+            v.push_back(area); 
+        }else{
+            v.push_back(x);
+            v.push_back(y);
+        }
+        return v;
+
+
+    }
+};
